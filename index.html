@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ae387eaef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+       
+        <div class="header">
+            <p>PASSWORD GENERATOR</p>
+        </div>
+        
+        <div class="content">
+           
+            <div class="text">
+                <p>Generate Your Random Password</p>
+            </div>
+            <div class="box">
+                
+                <div class="area">
+                    
+                    <div class="pass" id="pass">0</div>
+                    <div class="right">
+                        <div class="copytxt">Copied</div>
+                        <div class="icon" onclick="copyPass()"><i class="fa-solid fa-copy fa-xl" style="color: #0f3d43;"></i></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="button" onclick="createPassword()"><button>GENERATE</button></div>
+        
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
